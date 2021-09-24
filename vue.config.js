@@ -2,5 +2,5 @@ module.exports = {
   transpileDependencies: ['vuetify'],
   outputDir: 'docs',
   assetsDir: './',
-  publicPath: './',
+  publicPath: process.env.VUE_APP_BASE_URL,
 }
