@@ -1,0 +1,50 @@
+{
+  "ja": {
+    "commons": {
+      "confirmation": "確認",
+      "sending": "送信する"
+    },
+    "validator": {
+      "fields": {
+        "company": "会社名",
+        "detailsOfYourInquiry": "お問い合わせ内容",
+        "email": "メールアドレス",
+        "inquiryType": "お問い合わせ種別",
+        "name": "お名前",
+        "ngWordTest": "NG ワードテスト",
+        "yourPosition": "お立場"
+      },
+      "ngWords": {
+        "broly": "ブロリー",
+        "fugafuga": "フガフガ",
+        "hogehoge": "ホゲホゲ",
+        "piyopiyo": "ピヨピヨ"
+      },
+      "rules": {
+        "email": "{_field_}を正しいメールアドレスにしてください。",
+        "ngWord": "{_field_}に NG ワードが含まれています。",
+        "required": "{_field_}を入力してください。"
+      }
+    },
+    "views": {
+      "home": {
+        "customValidation": "カスタムバリデーション",
+        "inquiry": "お問い合わせ",
+        "inquiryTypeItems": {
+          "forNewInstallations": "新規導入に関してのお問い合わせ",
+          "operationDuringInstallation": "導入中の操作に関してのお問い合わせ",
+          "other": "その他のお問い合わせ"
+        },
+        "yourPositionItems": {
+          "agencyOrClientProposals": "代理店/クライアント提案",
+          "departmentManagerLevel": "部長クラス",
+          "generalEmployeeLevel": "一般社員クラス",
+          "managementOrExecutiveLevel": "経営者/役員クラス",
+          "otherOrSoleProprietorship": "その他/個人事業主",
+          "sectionChiefOrChiefOrleaderLevel": "係長/主任/リーダークラス",
+          "sectionChiefOrManagerLevel": "課長/マネージャークラス"
+        }
+      }
+    }
+  }
+}
